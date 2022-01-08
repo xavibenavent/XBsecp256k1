@@ -50,5 +50,6 @@ let package = Package(
                 .define("SECP256K1_MODULE_SCHNORRSIG_MAIN_H"),
             ]
         ),
-    ]
+    ],
+    cLanguageStandard: .c89
 )
